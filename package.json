@@ -1,0 +1,18 @@
+{
+  "name": "book-scraping",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc app.ts && node app.js"
+  },
+  "author": "Evgeniy Polupanov",
+  "license": "ISC",
+  "dependencies": {
+    "puppeteer": "^10.4.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.4.4"
+  }
+}
